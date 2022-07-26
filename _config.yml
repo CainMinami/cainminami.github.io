@@ -31,7 +31,7 @@ copyright: Copyright © 2021-2022
 description: >- # this means to ignore newlines until "baseurl:" Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
   Cain Minami 的个人网站，并不一定会有什么有趣的东西。
 
-baseurl: "/aIndex.html" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cainminami.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "https://res.craft.do/user/full/567de201-96f8-f078-ed6a-0621ee6545dd/doc/C74E0CB2-B392-4237-B381-14492A173283/8E3749EE-AF1C-48D3-A323-2C12760B2643_2/awwyZ493dpPgLl8IAOIQd8myAyEiTv4C7rT8xfXaHpcz/IMG_2341.jpeg" # the favicon for your site
 
