@@ -7,55 +7,9 @@ tags: test
 sidebar: []
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-## section 1
+这是我在这个博客中发出的第一篇文章。搭建一个博客可以算是长期以来我的众多想做但没有完成过的事情之一吧。到目前为止我的情绪输出以对日常生活发表简短的评价为主，而 Twitter 很好地满足了我绝大多数的需求，再加上建站的繁琐步骤，也就一直没有完整弄过博客。很大程度上跟我没有太多长篇的、连续的文字输出习惯也有关，考虑到现今的网络环境，这也不一定就是坏事，毕竟言多必失。
 
-Jekyll also offers powerful support for code snippets:
+弄这个博客也是想着尝试改变现在的生活，同时也提升自己系统性输出文字的能力。尽管我也不知道自己能坚持多久，不清楚会把多少东西放到网上，总之这是一个新的尝试，希望我能有所收获。
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-## section 2
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-$ a \* b = c ^ b $
-
-$ 2^{\frac{n-1}{3}} $
-
-$ \int_a^b f(x)\,dx. $
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Hello World!";
-  return 0;
-}
-// prints 'Hi, Tom' to STDOUT.
-```
-
-```python
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)
-```
