@@ -8,6 +8,6 @@ tags: [test]
 
 
 
-![Cloud&light, fish-eye](https://cain.tk/assets/posts/220729_IMG_6752.HEIC)
+![Cloud&light, fish-eye](https://cain.tk/assets/images/posts/220729_IMG_6752.HEIC)
 
-![Cloud&light](https://cain.tk/assets/posts/220729_IMG_6753.HEIC)
+![Cloud&light](https://cain.tk/assets/images/posts/220729_IMG_6753.HEIC)
