@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 测试用
+title: 博客搭建与测试用
 subtitle: 尚未完成
 tags: [test]
 ---
 
 # Test for picture support & HDR support
 
-[TOC]
 
-## 插入图片时遇到的坑
+
+## 插入图片时遇到的问题
 
 HEIC 图片可能无法正常展示，推测该问题是该模板的问题。
 
