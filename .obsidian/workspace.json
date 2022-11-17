@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/2022-11-17-iCloud-mail-setup.md",
+                "file": "templates/2022-11-17-iCloud-custom-mail.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/2022-11-17-iCloud-mail-setup.md",
+                "file": "templates/2022-11-17-iCloud-custom-mail.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/2022-11-17-iCloud-mail-setup.md",
+                "file": "templates/2022-11-17-iCloud-custom-mail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/2022-11-17-iCloud-mail-setup.md",
+                "file": "templates/2022-11-17-iCloud-custom-mail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,23 +137,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/2022-11-17-iCloud-mail-setup.md"
+                "file": "templates/2022-11-17-iCloud-custom-mail.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "ad93cdc2cb79397e",
+  "active": "2cd6c9180fbaf756",
   "lastOpenFiles": [
-    "templates/2022-11-16-Psychiatry-inner-peace.md",
-    "templates/2022-11-17-iCloud-mail-setup.md",
     "templates/2022-11-16-Apple-and-watch.md",
-    "_posts/2022-07-29-博客搭建与测试.md",
+    "templates/2022-11-17-iCloud-custom-mail.md",
+    "templates/2022-07-29-Test.md",
+    "templates/2022-11-16-Psychiatry-inner-peace.md",
     "_posts/2022-07-27-Hello-world.md",
     "_posts/2022-07-27-hello-world.md",
     "_posts/2022-07-29-Test.md",
