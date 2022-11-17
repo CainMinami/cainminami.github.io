@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-16-Psychiatry-inner-peace.md",
+                "file": "templates/2022-11-16-Psychiatry-inner-peace.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ef149559e78fcaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/2016-08-12-my-example-post.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-16-Psychiatry-inner-peace.md",
+                "file": "templates/2016-08-12-my-example-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-16-Psychiatry-inner-peace.md",
+                "file": "templates/2016-08-12-my-example-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-16-Psychiatry-inner-peace.md"
+                "file": "templates/2016-08-12-my-example-post.md"
               }
             }
           }
@@ -136,10 +149,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ad93cdc2cb79397e",
+  "active": "9ef149559e78fcaf",
   "lastOpenFiles": [
+    "2022-11-17-iCloud-mail-setup.md",
+    "templates/2022-11-16-Psychiatry-inner-peace.md",
     "README.md",
-    "_posts/2022-11-16-Psychiatry-inner-peace.md",
     "_posts/2022-07-29-博客搭建与测试.md",
     "_posts/2022-07-27-Hello-world.md"
   ]
