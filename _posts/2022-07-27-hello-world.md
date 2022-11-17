@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Hello world
+subtitle: 早上好
 author: Cain Minami
 categories: 测试
 tags: test
+sidebar: [article-menu]
 ---
 
 

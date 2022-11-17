@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-07-27-Hello-world.md",
+                "file": "templates/2022-11-17-iCloud-mail-setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-07-27-Hello-world.md",
+                "file": "templates/2022-11-17-iCloud-mail-setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-07-27-Hello-world.md",
+                "file": "templates/2022-11-17-iCloud-mail-setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-07-27-Hello-world.md"
+                "file": "templates/2022-11-17-iCloud-mail-setup.md"
               }
             }
           }
@@ -150,10 +150,13 @@
   },
   "active": "ad93cdc2cb79397e",
   "lastOpenFiles": [
-    "_posts/2022-07-29-博客搭建与测试.md",
-    "templates/2022-11-17-iCloud-mail-setup.md",
-    "_posts/2022-07-27-Hello-world.md",
     "templates/2022-11-16-Psychiatry-inner-peace.md",
+    "templates/2022-11-17-iCloud-mail-setup.md",
+    "templates/2022-11-16-Apple-and-watch.md",
+    "_posts/2022-07-29-博客搭建与测试.md",
+    "_posts/2022-07-27-Hello-world.md",
+    "_posts/2022-07-27-hello-world.md",
+    "_posts/2022-07-29-Test.md",
     "templates/2016-08-12-my-example-post.md",
     "README.md"
   ]

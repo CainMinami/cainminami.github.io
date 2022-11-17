@@ -1,10 +1,11 @@
 ---
 layout: post
 title: 精神与 Inner peace
+subtitle: 也许什么都没有
 author: Cain Minami
 categories: 杂谈
 tags: 想法
-sidebar: []
+sidebar: [article-menu]
 ---
 
 
