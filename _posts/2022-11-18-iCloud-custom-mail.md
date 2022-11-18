@@ -45,7 +45,7 @@ CF 的邮件转发还提供了简单的邮件数据统计。发往未登记地�
 ### 温馨提示
 在 CF 中设置邮件相关配置后会提示已锁定 MX 记录的修改权限，修改权限可以解锁，并且不会影响 CF 邮件转发的正常工作。
 
-![Cloudflare 邮件 DNS 设置页面](assets/images/posts/221117_iCloud_CloudflareMX.png)
+![Cloudflare 邮件 DNS 设置页面](/assets/images/posts/221117_iCloud_CloudflareMX.png)
 
 
 ## Apple WTF
