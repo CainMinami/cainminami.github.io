@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/2022-11-17-iCloud-custom-mail.md",
+                "file": "_posts/2022-11-18-iCloud-custom-mail.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/2022-11-17-iCloud-custom-mail.md",
+                "file": "_posts/2022-11-18-iCloud-custom-mail.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/2022-11-17-iCloud-custom-mail.md",
+                "file": "_posts/2022-11-18-iCloud-custom-mail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/2022-11-17-iCloud-custom-mail.md",
+                "file": "_posts/2022-11-18-iCloud-custom-mail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/2022-11-17-iCloud-custom-mail.md"
+                "file": "_posts/2022-11-18-iCloud-custom-mail.md"
               }
             }
           }
@@ -148,10 +148,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "2cd6c9180fbaf756",
+  "active": "02d807c38a4501a2",
   "lastOpenFiles": [
     "templates/2022-11-16-Apple-and-watch.md",
-    "templates/2022-11-17-iCloud-custom-mail.md",
+    "_posts/2022-11-18-iCloud-custom-mail.md",
     "templates/2022-07-29-Test.md",
     "templates/2022-11-16-Psychiatry-inner-peace.md",
     "_posts/2022-07-27-Hello-world.md",
