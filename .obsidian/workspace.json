@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-18-iCloud-custom-mail.md",
+                "file": "templates/2022-11-16-Psychiatry-inner-peace.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-18-iCloud-custom-mail.md",
+                "file": "templates/2022-11-16-Psychiatry-inner-peace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-18-iCloud-custom-mail.md",
+                "file": "templates/2022-11-16-Psychiatry-inner-peace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-18-iCloud-custom-mail.md"
+                "file": "templates/2022-11-16-Psychiatry-inner-peace.md"
               }
             }
           }
@@ -148,13 +148,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "02d807c38a4501a2",
+  "active": "ad93cdc2cb79397e",
   "lastOpenFiles": [
     "templates/2022-11-16-Apple-and-watch.md",
-    "_posts/2022-11-18-iCloud-custom-mail.md",
     "templates/2022-07-29-Test.md",
-    "templates/2022-11-16-Psychiatry-inner-peace.md",
+    "_posts/2022-11-18-iCloud-custom-mail.md",
     "_posts/2022-07-27-Hello-world.md",
+    "templates/2022-11-16-Psychiatry-inner-peace.md",
     "_posts/2022-07-27-hello-world.md",
     "_posts/2022-07-29-Test.md",
     "templates/2016-08-12-my-example-post.md",
