@@ -1,0 +1,55 @@
+# 此规则适用于学校校园网已经购买网站内容版权，且通过 校园网直连（DIRECT 策略） 或 学校提供的代理服务器（将策略改为指定服务器或服务器组的名称） 访问才能生效。
+# 此规则使用前应先咨询校方相关事宜。若校方不具有版权，此规则无用处。
+
+[Rule]
+
+# 法律数据库
+DOMAIN-SUFFIX,pkulaw.com
+DOMAIN-SUFFIX,pkulaw.net
+DOMAIN-KEYWORD,westlawchina
+
+# 查找 DOI
+DOMAIN-SUFFIX,doi.org
+
+# SCI 综合
+DOMAIN-SUFFIX,researchgate.net
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,blackwell-synergy.com
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,cabdirect.org
+DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,osapublishing.org
+DOMAIN-SUFFIX,webofscience.com
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-SUFFIX,nih.gov
+
+## Willey 旗下
+DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,DOMAIN-readcube.com
+
+## Elsevier 旗下
+DOMAIN-SUFFIX,scopus.com
+DOMAIN-SUFFIX,sciencedirect.com
+DOMAIN-SUFFIX,elsevier.com
+DOMAIN-SUFFIX,deepdyve.com
+DOMAIN-SUFFIX,els-cdn.com
+
+## Oxford 出版系列
+DOMAIN-SUFFIX,oup.com
+
+## Springer 旗下
+DOMAIN-SUFFIX,springernature.com
+
+## JSTOR 旗下
+DOMAIN-SUFFIX,jstor.org
+
+## 其他
+DOMAIN-SUFFIX,aps.org
+DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,iop.org
+DOMAIN-SUFFIX,aip.scitation.org
+DOMAIN-SUFFIX,cambridge.org
+DOMAIN-SUFFIX,dl.acm.org

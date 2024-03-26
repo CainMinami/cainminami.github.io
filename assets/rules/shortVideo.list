@@ -1,0 +1,18 @@
+# Rule list for banning short videos and other unwanted contents
+# Some content may not able to load when activate this list
+# FOR PERSONAL USR ONLY
+
+DOMAIN-SUFFIX,sns-video-hw.xhscdn.net
+DOMAIN-KEYWORD,sns-video-al.xhscdn.com
+DOMAIN-SUFFIX,sns-video-qc.xhscdn.com
+DOMAIN-SUFFIX,sns-video-hw.xhscdn.com
+DOMAIN-SUFFIX,sns-video-bd.xhscdn.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,mssdk-bu.bytedance.com
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,mssdk-bu.bytedance.com
+DOMAIN-KEYWORD,spider-tracker.xiaohongshu.com
