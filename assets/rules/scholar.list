@@ -1,7 +1,5 @@
 # Remove non-ASCII characters to avoid error
 
-[Rule]
-
 # LAW
 DOMAIN-SUFFIX,pkulaw.com
 DOMAIN-SUFFIX,pkulaw.net
