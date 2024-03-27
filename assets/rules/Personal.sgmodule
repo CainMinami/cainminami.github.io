@@ -1,6 +1,5 @@
 #!name=Mixed script module
 #!desc=For personal use, including xhs, amap, etc.
-#!system=ios
 
 [MITM]
 hostname = %APPEND% az1mbasecc.bas.cmbchina.com,intellicc.bas.cmbchina.com,static.95508.com,client.app.coc.10086.cn,*.elemecdn.com,www1.elecfans.com,gw.alicdn.com,acs.m.taobao.com,api-sams.walmartmobile.cn,static.zhihu.com,api.alipan.com,member.alipan.com,*.pan.baidu.com,img.meituan.net,s3plus.meituan.net,wmapi.meituan.com,mall.meituan.com,api.m.jd.com,edith.xiaohongshu.com,www.xiaohongshu.com,newclient.map.baidu.com,ad.12306.cn,amdc.m.taobao.com,m5.amap.com,m5-zb.amap.com,oss.amap.com,sns.amap.com,home.umetrip.com,startup.umetrip.com, discardrp.umetrip.com,114.115.217.129,xhslink.com,app.biliintl.com, app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com
