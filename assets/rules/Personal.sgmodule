@@ -1,0 +1,70 @@
+#!name=Script Module
+#!desc=Script Pack
+#!system=ios
+
+[MITM]
+hostname = %APPEND% az1mbasecc.bas.cmbchina.com,intellicc.bas.cmbchina.com,static.95508.com,client.app.coc.10086.cn,*.elemecdn.com,www1.elecfans.com,gw.alicdn.com,acs.m.taobao.com,api-sams.walmartmobile.cn,static.zhihu.com,api.alipan.com,member.alipan.com,*.pan.baidu.com,img.meituan.net,s3plus.meituan.net,wmapi.meituan.com,mall.meituan.com,api.m.jd.com,edith.xiaohongshu.com,www.xiaohongshu.com,newclient.map.baidu.com,ad.12306.cn,amdc.m.taobao.com,m5.amap.com,m5-zb.amap.com,oss.amap.com,sns.amap.com,home.umetrip.com,startup.umetrip.com, discardrp.umetrip.com,114.115.217.129,xhslink.com
+
+[Rule]
+# > 掌上生活
+URL-REGEX,^https?:\/\/az1mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec,REJECT
+URL-REGEX,^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec,REJECT
+
+# > 饿了么
+URL-REGEX,^https?:\/\/elemecdn.com\/.+\/sitemap,REJECT
+URL-REGEX,^https?:\/\/www1.elecfans.com\/www\/delivery,REJECT
+URL-REGEX,^https?:\/\/fuss10\.elemecdn\.com\/.+\/(w\/(640|750)\/h\/\d{3,4}|.+\.mp4)$,REJECT
+
+# > 闲鱼
+URL-REGEX,^https?:\/\/gw\.alicdn\.com\/(mt\/|tfs\/.+\d{3,4}-\d{4}|tps\/.+\d{3,4}-\d{4})$,REJECT
+URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome,REJECT
+
+# > 淘票票
+URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.*,REJECT
+
+# > 大麦
+URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.wireless\.home\.welcome,REJECT
+
+# > 山姆
+URL-REGEX,^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v1\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get),REJECT
+
+# > 屏蔽知乎网页版强制登陆弹窗
+URL-REGEX,^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js,REJECT
+
+# > 航旅纵横
+URL-REGEX,^https?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native,REJECT
+
+[URL Rewrite]
+# > 将 xhslink.com 短链重定向至 xhslink.icu 防止追踪参数 by chouchoui
+^https?:\/\/xhslink\.com https://xhslink.icu 302
+
+[Map Local]
+# > 中国移动
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# > 阿里云盘 by RuCu6
+^https?:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# > 小红书
+^https?:\/\/(www|edith)\.xiaohongshu\.com\/api\/(sns\/v1\/(surprisebox\/(get_style|open|submit_action)|ads\/resource)|sns\/v2\/hey\/\w+\/hey_gallery|sns\/v3\/note\/guide\?|marketing\/box\/trigger\?) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# > 高德地图 by RuCu6
+^https?:\/\/(os|sn)s\.amap\.com\/ws\/(banner\/lists|msgbox\/pull_mp)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https?:\/\/m5(-zb)?\.amap\.com\/ws\/(faas\/amap-navigation\/(card-service-(car-end|route-plan)|main-page-(assets|location))|shield\/(search\/(new_hotword|poi\/tips_adv)|scene\/recommend)|mapapi\/hint_text\/offline_data|message\/notice\/list|valueadded\/weather\/v2|boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization))\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+[Script]
+# > Sub Info
+Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info.js,timeout=10
+
+# > 小红书去广告&水印 by chouchoui&RuCu6&fmz200
+xiaohongshu_proto.js = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v1\/(note\/(imagefeed|live_photo\/save)|search\/(banner|hot)_list|system_service\/config\?)|v2\/(note\/(feed\?|widgets)|system_service\/splash_config|user\/followings\/followfeed)|v3\/note\/videofeed\?|v4\/(followfeed\?|search\/(hint|trending)\?)|v5\/recommend\/user\/follow_recommend\?|v6\/homefeed\?|v10\/search\/notes\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js,script-update-interval=0
+
+# > 阿里云盘 by RuCu6
+alidrive_proto.js = type=http-response,pattern=^https?:\/\/(api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets)|member\.alipan\.com\/v1\/users\/onboard_list),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+
+# > 高德地图 by RuCu6
+amdc.js = type=http-response,pattern=^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js
+amap_proto.js = type=http-response,pattern=^https?:\/\/m5(-zb)?\.amap\.com\/ws\/(perception\/drive\/(routeInfo|routePlan)|faas\/amap-navigation\/(card-service-plan-home|main-page)|shield\/(search\/(common\/coupon\/info|poi\/detail|nearbyrec_smart)|search_business\/process\/marketingOperationStructured|search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location)|frogserver\/aocs\/updatable\/1|dsp\/profile\/index\/nodefaasv3)|valueadded\/(weather\/v2|alimama\/splash_screen)|boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization|car\/order\/content_info|order_web\/friendly_information)|promotion-web\/resource(\/home)?|sharedtrip\/taxi\/order_detail_car_tips)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+
+# > 航旅纵横
+Umetrip_proto.js = type=http-response,pattern=^https?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$,requires-body=1,max-size=0,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Umetrip/Umetrip_remove_ads.js
