@@ -3,7 +3,8 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% az1mbasecc.bas.cmbchina.com,intellicc.bas.cmbchina.com,static.95508.com,client.app.coc.10086.cn,*.elemecdn.com,www1.elecfans.com,gw.alicdn.com,acs.m.taobao.com,api-sams.walmartmobile.cn,static.zhihu.com,api.alipan.com,member.alipan.com,*.pan.baidu.com,img.meituan.net,s3plus.meituan.net,wmapi.meituan.com,mall.meituan.com,api.m.jd.com,edith.xiaohongshu.com,www.xiaohongshu.com,newclient.map.baidu.com,ad.12306.cn,amdc.m.taobao.com,m5.amap.com,m5-zb.amap.com,oss.amap.com,sns.amap.com,home.umetrip.com,startup.umetrip.com, discardrp.umetrip.com,114.115.217.129,xhslink.com
+hostname = %APPEND% az1mbasecc.bas.cmbchina.com,intellicc.bas.cmbchina.com,static.95508.com,client.app.coc.10086.cn,*.elemecdn.com,www1.elecfans.com,gw.alicdn.com,acs.m.taobao.com,api-sams.walmartmobile.cn,static.zhihu.com,api.alipan.com,member.alipan.com,*.pan.baidu.com,img.meituan.net,s3plus.meituan.net,wmapi.meituan.com,mall.meituan.com,api.m.jd.com,edith.xiaohongshu.com,www.xiaohongshu.com,newclient.map.baidu.com,ad.12306.cn,amdc.m.taobao.com,m5.amap.com,m5-zb.amap.com,oss.amap.com,sns.amap.com,home.umetrip.com,startup.umetrip.com, discardrp.umetrip.com,114.115.217.129,xhslink.com,app.biliintl.com, app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com
+
 
 [Rule]
 # > 掌上生活
@@ -55,6 +56,9 @@ URL-REGEX,^https?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/
 [Script]
 # > Sub Info
 Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info.js,timeout=10
+
+# > Bilibili
+BiliBili_1080P高码率+4K畫質 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
 
 # > 小红书去广告&水印 by chouchoui&RuCu6&fmz200
 xiaohongshu_proto.js = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v1\/(note\/(imagefeed|live_photo\/save)|search\/(banner|hot)_list|system_service\/config\?)|v2\/(note\/(feed\?|widgets)|system_service\/splash_config|user\/followings\/followfeed)|v3\/note\/videofeed\?|v4\/(followfeed\?|search\/(hint|trending)\?)|v5\/recommend\/user\/follow_recommend\?|v6\/homefeed\?|v10\/search\/notes\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js,script-update-interval=0
