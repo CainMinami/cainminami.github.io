@@ -1,0 +1,12 @@
+# Rule list for banning videos and lives in shopping
+# Some content may not able to load when activate this list
+# FOR PERSONAL USR ONLY
+
+# Taobao
+## Videos
+
+IP-CIDR,111.132.34.164/32
+DOMAIN-SUFFIX,cloudvideocdn.taobao.com
+
+## Lives
+DOMAIN-SUFFIX,alive-components.alibaba.com
