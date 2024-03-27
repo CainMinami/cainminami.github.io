@@ -10,13 +10,8 @@ DOMAIN-SUFFIX,cloudvideocdn.taobao.com
 DOMAIN-SUFFIX,cloud.video.taobao.com
 
 ## Lives
-IP-CIDR,111.32.202.253/24
-IP-CIDR,111.32.34.163/24
-IP-CIDR,111.31.37.209/24
-IP-CIDR,111.13.104.104/24
-IP-CIDR,111.13.103.234/24
 DOMAIN-SUFFIX,alive-components.alibaba.com
-# DOMAIN-SUFFIX,livecbing.alicdn.com
+DOMAIN-SUFFIX,livecbing.alicdn.com
 
 # JD
 ## Video
