@@ -1,6 +1,5 @@
 #!name= Enable iCloud Private Relay on gateway
 #!desc=为终端设备启用iCloud专用代理，需要Surge for macOS启用网关模式。
-#!system=mac
 
 [Rule]
 # > iCloud Private Relay
