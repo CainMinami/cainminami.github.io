@@ -4,8 +4,6 @@
 
 # Taobao
 ## Videos
-
-IP-CIDR,111.132.34.164/24
 DOMAIN-SUFFIX,cloudvideocdn.taobao.com
 DOMAIN-SUFFIX,cloud.video.taobao.com
 
