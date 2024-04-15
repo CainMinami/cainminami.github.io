@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,osapublishing.org
 DOMAIN-SUFFIX,webofscience.com
 DOMAIN-SUFFIX,clarivate.com
 DOMAIN-SUFFIX,nih.gov
+DOMAIN-SUFFIX,webofknowledge.com
 
 ## Willey
 DOMAIN-SUFFIX,wiley.com
@@ -50,3 +51,7 @@ DOMAIN-SUFFIX,iop.org
 DOMAIN-SUFFIX,aip.scitation.org
 DOMAIN-SUFFIX,cambridge.org
 DOMAIN-SUFFIX,dl.acm.org
+
+# Governmental
+DOMAIN-SUFFIX,nih.gov
+DOMAIN-SUFFIX,gov.cn
