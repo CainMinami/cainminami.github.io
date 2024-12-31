@@ -20,7 +20,7 @@ DOMAIN-KEYWORD,spider-tracker.xiaohongshu.com
 # Mobile phone number auto acquire
 # China Mobile
 DOMAIN-SUFFIX,config.cmpassport.com
-DOMAIN-SUFFIX,www.cmpassport.com
+DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,wap.cmpassport.com
 DOMAIN-SUFFIX,onekey1.cmpassport.com
 DOMAIN-SUFFIX,log1.cmpassport.com
