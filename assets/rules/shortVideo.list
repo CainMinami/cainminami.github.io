@@ -2,11 +2,93 @@
 # Some content may not able to load when activate this list
 # FOR PERSONAL USR ONLY
 
+# Xiaohongshu
+DOMAIN-SUFFIX,fe-static.xhscdn.com,REJECT-DROP
+DOMAIN-SUFFIX,crash.xiaohongshu.com,REJECT-DROP
+URL-REGEX,^http:\/\/sns-na-.{2}\.xhscdn\.com.*\.mp4$,REJECT-DROP
+URL-REGEX,^http:\/\/sns-bak-.{2}\.xhscdn\.com\/stream.*$,REJECT-DROP
+DOMAIN-SUFFIX,fe-video-qc.xhscdn.com,REJECT-DROP
+URL-REGEX,^https:\/\/mediacloud\.xiaohongshu\.com\/api\/httpdns.*$,REJECT-DROP
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/video_finished.*$,REJECT-DROP
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/launch.*$,REJECT-DROP
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets$,REJECT-DROP
+URL-REGEX,^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/popup_window.*$,REJECT-DROP
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/video_played.*$,REJECT-DROP
+DOMAIN-SUFFIX,lng.xiaohongshu.com,REJECT-DROP
+DOMAIN-SUFFIX,t2.xiaohongshu.com,REJECT-DROP
+DOMAIN-SUFFIX,apm-native.xiaohongshu.com,REJECT-DROP
+DOMAIN-SUFFIX,sns-video-hs.xhscdn.com,REJECT-DROP
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/metrics_report$,REJECT-DROP
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/videofeed\/exit$,REJECT-DROP
 DOMAIN-SUFFIX,sns-video-hw.xhscdn.net
 DOMAIN-KEYWORD,sns-video-al.xhscdn.com
 DOMAIN-SUFFIX,sns-video-qc.xhscdn.com
 DOMAIN-SUFFIX,sns-video-hw.xhscdn.com
 DOMAIN-SUFFIX,sns-video-bd.xhscdn.com
+DOMAIN-KEYWORD,spider-tracker.xiaohongshu.com
+
+# Taobao video&live
+IP-CIDR,59.82.121.90/32,REJECT-DROP,no-resolve
+IP-CIDR,203.119.204.174/32,REJECT-DROP,no-resolve
+IP-CIDR,59.82.122.238/32,REJECT-DROP,no-resolve
+IP-CIDR,124.200.113.114/32,REJECT-DROP,no-resolve
+IP-CIDR,59.82.122.127/32,REJECT-DROP,no-resolve
+IP-CIDR,124.193.244.237/32,REJECT-DROP,no-resolve
+IP-CIDR,124.193.244.241/32,REJECT-DROP,no-resolve
+DOMAIN-SUFFIX,sessions.bugsnag.com,REJECT-DROP
+DOMAIN-SUFFIX,video-sh.cloudvideocdn.taobao.com,REJECT-DROP
+IP-CIDR,124.200.113.107/32,REJECT-DROP,no-resolve
+IP-CIDR,124.200.113.113/32,REJECT-DROP,no-resolve
+DOMAIN-SUFFIX,liveca.alicdn.com,REJECT-DROP
+IP-CIDR,183.201.221.10/32,REJECT-DROP,no-resolve
+IP-CIDR,183.201.221.10/32,REJECT-DROP,no-resolve
+URL-REGEX,^https:\/\/.*cs\.m\.taobao\.com\/gw\/mtop.*$,REJECT-DROP
+IP-CIDR,59.82.122.172/32,REJECT-DROP,no-resolve
+IP-CIDR,203.119.204.247/32,REJECT-DROP,no-resolve
+IP-CIDR,203.119.238.239/32,REJECT-DROP,no-resolve
+IP-CIDR,124.200.113.183/32,REJECT-DROP,no-resolve
+IP-CIDR,124.200.113.104/32,REJECT-DROP,no-resolve
+IP-CIDR,124.193.226.252/32,REJECT-DROP,no-resolve
+IP-CIDR,124.14.14.100/32,REJECT-DROP,no-resolve
+IP-CIDR,111.132.33.250/32,REJECT-DROP,no-resolve
+IP-CIDR,124.14.14.100/32,REJECT-DROP,no-resolve
+IP-CIDR,43.224.184.250/32,REJECT-DROP,no-resolve
+DOMAIN-SUFFIX,livecb.alicdn.com,REJECT-DROP
+IP-CIDR,140.205.151.6/32,REJECT-DROP,no-resolve
+IP-CIDR,124.200.113.110/32,REJECT-DROP,no-resolve
+IP-CIDR,59.82.132.207/32,REJECT-DROP,no-resolve
+IP-CIDR,124.193.244.240/32,REJECT-DROP,no-resolve
+IP-CIDR,203.119.204.34/32,REJECT-DROP,no-resolve
+IP-CIDR,59.82.120.37/32,REJECT-DROP,no-resolve
+IP-CIDR,59.82.120.67/32,REJECT-DROP,no-resolve
+IP-CIDR,103.43.210.239/32,REJECT-DROP,no-resolve
+IP-CIDR,103.43.210.239/32,REJECT-DROP,no-resolve
+DOMAIN-SUFFIX,liveng.alicdn.com,REJECT-DROP
+IP-CIDR,124.193.235.158/32,REJECT-DROP,no-resolve
+IP-CIDR,111.62.209.13/32,REJECT-DROP,no-resolve
+IP-CIDR,59.82.113.252/32,REJECT-DROP,no-resolve
+IP-CIDR,59.82.113.35/32,REJECT-DROP,no-resolve
+IP-CIDR,59.82.120.238/32,REJECT-DROP,no-resolve
+IP-CIDR,124.193.244.251/32,REJECT-DROP,no-resolve
+DOMAIN-SUFFIX,livecaing.alicdn.com,REJECT-DROP
+DOMAIN-SUFFIX,livenging.alicdn.com,REJECT-DROP
+IP-CIDR,124.193.244.250/32,REJECT-DROP,no-resolve
+IP-CIDR,43.224.184.249/32,REJECT-DROP,no-resolve
+DOMAIN-SUFFIX,livecbing.alicdn.com,REJECT-DROP
+DOMAIN-SUFFIX,tbexpand.alicdn.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,cloud.video.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,video-zb.cloudvideocdn.taobao.com,REJECT-TINYGIF
+IP-CIDR,124.200.113.103/32,REJECT-DROP,no-resolve
+IP-CIDR,124.200.113.111/32,REJECT-DROP,no-resolve
+IP-CIDR,125.39.43.215/32,REJECT-DROP,no-resolve
+IP-CIDR,123.125.244.95/32,REJECT-DROP,no-resolve
+IP-CIDR,101.72.217.144/32,REJECT-DROP,no-resolve
+IP-CIDR,101.72.217.144/32,REJECT-DROP,no-resolve
+IP-CIDR,101.72.217.138/32,REJECT-DROP,no-resolve
+IP-CIDR,101.72.217.138/32,REJECT-DROP,no-resolve
+IP-CIDR,101.72.217.139/32,REJECT-DROP,no-resolve
+
+#Others
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,mssdk-bu.bytedance.com
 DOMAIN-SUFFIX,ctobsnssdk.com
@@ -15,7 +97,6 @@ DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,mssdk-bu.bytedance.com
-DOMAIN-KEYWORD,spider-tracker.xiaohongshu.com
 
 # Mobile phone number auto acquire
 # China Mobile
