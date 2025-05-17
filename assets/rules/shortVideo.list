@@ -3,44 +3,45 @@
 # FOR PERSONAL USR ONLY
 
 # Xiaohongshu
-DOMAIN-SUFFIX,fe-static.xhscdn.com,REJECT-DROP
-DOMAIN-SUFFIX,crash.xiaohongshu.com,REJECT-DROP
-URL-REGEX,^http:\/\/sns-na-.{2}\.xhscdn\.com.*\.mp4$,REJECT-DROP
-URL-REGEX,^http:\/\/sns-bak-.{2}\.xhscdn\.com\/stream.*$,REJECT-DROP
-DOMAIN-SUFFIX,fe-video-qc.xhscdn.com,REJECT-DROP
-URL-REGEX,^https:\/\/mediacloud\.xiaohongshu\.com\/api\/httpdns.*$,REJECT-DROP
-URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/video_finished.*$,REJECT-DROP
-URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/launch.*$,REJECT-DROP
-URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets$,REJECT-DROP
-URL-REGEX,^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/popup_window.*$,REJECT-DROP
-URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/video_played.*$,REJECT-DROP
-DOMAIN-SUFFIX,lng.xiaohongshu.com,REJECT-DROP
-DOMAIN-SUFFIX,t2.xiaohongshu.com,REJECT-DROP
-DOMAIN-SUFFIX,apm-native.xiaohongshu.com,REJECT-DROP
-DOMAIN-SUFFIX,sns-video-hs.xhscdn.com,REJECT-DROP
-URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/metrics_report$,REJECT-DROP
-URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/videofeed\/exit$,REJECT-DROP
+DOMAIN-SUFFIX,fe-static.xhscdn.com
+DOMAIN-SUFFIX,crash.xiaohongshu.com
+URL-REGEX,^http:\/\/sns-na-.{2}\.xhscdn\.com.*\.mp4$
+URL-REGEX,^http:\/\/sns-bak-.{2}\.xhscdn\.com\/stream.*$
+DOMAIN-SUFFIX,fe-video-qc.xhscdn.com
+URL-REGEX,^https:\/\/mediacloud\.xiaohongshu\.com\/api\/httpdns.*$
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/video_finished.*$
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/launch.*$
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets$
+URL-REGEX,^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/popup_window.*$
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/video_played.*$
+DOMAIN-SUFFIX,lng.xiaohongshu.com
+DOMAIN-SUFFIX,t2.xiaohongshu.com
+DOMAIN-SUFFIX,apm-native.xiaohongshu.com
+DOMAIN-SUFFIX,sns-video-hs.xhscdn.com
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/metrics_report$
+URL-REGEX,^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/videofeed\/exit$
 DOMAIN-SUFFIX,sns-video-hw.xhscdn.net
 DOMAIN-KEYWORD,sns-video-al.xhscdn.com
 DOMAIN-SUFFIX,sns-video-qc.xhscdn.com
 DOMAIN-SUFFIX,sns-video-hw.xhscdn.com
 DOMAIN-SUFFIX,sns-video-bd.xhscdn.com
 DOMAIN-KEYWORD,spider-tracker.xiaohongshu.com
-DOMAIN-SUFFIX,sns-video-exp1-qn.xhscdn.com,REJECT-DROP
+DOMAIN-SUFFIX,sns-video-exp1-qn.xhscdn.com
 
 # Taobao video&live
-DOMAIN-SUFFIX,sessions.bugsnag.com,REJECT-DROP
-DOMAIN-SUFFIX,video-sh.cloudvideocdn.taobao.com,REJECT-DROP
-DOMAIN-SUFFIX,liveca.alicdn.com,REJECT-DROP
-URL-REGEX,^https:\/\/.*cs\.m\.taobao\.com\/gw\/mtop.*$,REJECT-DROP
-DOMAIN-SUFFIX,livecb.alicdn.com,REJECT-DROP
-DOMAIN-SUFFIX,liveng.alicdn.com,REJECT-DROP
-DOMAIN-SUFFIX,livecaing.alicdn.com,REJECT-DROP
-DOMAIN-SUFFIX,livenging.alicdn.com,REJECT-DROP
-DOMAIN-SUFFIX,livecbing.alicdn.com,REJECT-DROP
-DOMAIN-SUFFIX,tbexpand.alicdn.com,REJECT-TINYGIF
-DOMAIN-SUFFIX,cloud.video.taobao.com,REJECT-TINYGIF
-DOMAIN-SUFFIX,video-zb.cloudvideocdn.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,sessions.bugsnag.com
+DOMAIN-SUFFIX,video-sh.cloudvideocdn.taobao.com
+DOMAIN-SUFFIX,liveca.alicdn.com
+URL-REGEX,^https:\/\/.*cs\.m\.taobao\.com\/gw\/mtop.*$
+DOMAIN-SUFFIX,livecb.alicdn.com
+DOMAIN-SUFFIX,liveng.alicdn.com
+DOMAIN-SUFFIX,livecaing.alicdn.com
+DOMAIN-SUFFIX,livenging.alicdn.com
+DOMAIN-SUFFIX,livecbing.alicdn.com
+DOMAIN-SUFFIX,tbexpand.alicdn.com
+DOMAIN-SUFFIX,cloud.video.taobao.com
+DOMAIN-SUFFIX,video-zb.cloudvideocdn.taobao.com
+DOMAIN-SUFFIX,tbm-auth.alicdn.com
 
 #Others
 DOMAIN-SUFFIX,umengcloud.com

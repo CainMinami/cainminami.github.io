@@ -1,35 +1,25 @@
 # Other personal defined rules
 # FOR PERSONAL USR ONLY
 
-DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI
-DOMAIN-SUFFIX,imap.gmail.com,"Walless PKU"
-DOMAIN-SUFFIX,rthk.hk,PROXY
-DOMAIN-SUFFIX,term.wtf,PROXY
-DOMAIN-SUFFIX,spotifycdn.com,HK
-DOMAIN-SUFFIX,spotify.com,HK
-DOMAIN-SUFFIX,emby.wtf,JP,extended-matching
-DOMAIN-SUFFIX,stripe.com,PROXY
-DOMAIN-SUFFIX,workona.com,PROXY
-DOMAIN-SUFFIX,app.smartmailcloud.com,JP
-DOMAIN-SUFFIX,sns-video-exp1-qn.xhscdn.com,REJECT-DROP
-DOMAIN-SUFFIX,arknights.jp,DIRECT
-DOMAIN-SUFFIX,tvb.com,HK
-DOMAIN-SUFFIX,plex.tv,JP
-DOMAIN-SUFFIX,dispatcher.is.autonavi.com,DIRECT
-DOMAIN-SUFFIX,yostar-oversea-netsdk-logging.ap-southeast-1.log.aliyuncs.com,DIRECT
-DOMAIN-SUFFIX,yostar-oversea-client-logging.ap-southeast-1.log.aliyuncs.com,DIRECT
-DOMAIN-SUFFIX,dispatcher.is.autonavi.com,REJECT-DROP
-DOMAIN-SUFFIX,tbm-auth.alicdn.com,REJECT-DROP
-DOMAIN-SUFFIX,lycorisrecoil.org,PROXY
+DOMAIN-SUFFIX,rthk.hk
+DOMAIN-SUFFIX,term.wtf
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,workona.com
+DOMAIN-SUFFIX,app.smartmailcloud.com
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,lycorisrecoil.org
 DOMAIN-SUFFIX,share.dmhy.org,"Mixed JP"
-DOMAIN-SUFFIX,maj-soul.com,JP
-DOMAIN-SUFFIX,itunes.apple.com,JP
-DOMAIN-SUFFIX,books-analytics-events.apple.com,JP
-DOMAIN-SUFFIX,mikanani.me,PROXY
-SRC-IP,192.168.50.110,HK
-DOMAIN-SUFFIX,singlelogin.rs,"Walless PKU"
-DOMAIN-SUFFIX,kill-the-newsletter.com,JP
-DOMAIN-SUFFIX,lemonade.moe,JP
-DOMAIN-SUFFIX,teracloud.jp,JP
-DOMAIN-SUFFIX,interactivebrokers.com,JP
+DOMAIN-SUFFIX,maj-soul.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,books-analytics-events.apple.com
+DOMAIN-SUFFIX,mikanani.me
+SRC-IP,192.168.50.110
+DOMAIN-SUFFIX,kill-the-newsletter.com
+DOMAIN-SUFFIX,lemonade.moe
+DOMAIN-SUFFIX,teracloud.jp
+DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-SUFFIX,tradingview.com,PROXY
