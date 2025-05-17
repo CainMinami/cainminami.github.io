@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,sns-video-qc.xhscdn.com
 DOMAIN-SUFFIX,sns-video-hw.xhscdn.com
 DOMAIN-SUFFIX,sns-video-bd.xhscdn.com
 DOMAIN-KEYWORD,spider-tracker.xiaohongshu.com
+DOMAIN-SUFFIX,sns-video-exp1-qn.xhscdn.com,REJECT-DROP
 
 # Taobao video&live
 DOMAIN-SUFFIX,sessions.bugsnag.com,REJECT-DROP
