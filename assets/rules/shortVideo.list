@@ -29,7 +29,6 @@ DOMAIN-KEYWORD,spider-tracker.xiaohongshu.com
 DOMAIN-SUFFIX,sns-video-exp1-qn.xhscdn.com
 
 # Taobao video&live
-DOMAIN-SUFFIX,sessions.bugsnag.com
 DOMAIN-SUFFIX,video-sh.cloudvideocdn.taobao.com
 DOMAIN-SUFFIX,liveca.alicdn.com
 URL-REGEX,^https:\/\/.*cs\.m\.taobao\.com\/gw\/mtop.*$
@@ -41,7 +40,6 @@ DOMAIN-SUFFIX,livecbing.alicdn.com
 DOMAIN-SUFFIX,tbexpand.alicdn.com
 DOMAIN-SUFFIX,cloud.video.taobao.com
 DOMAIN-SUFFIX,video-zb.cloudvideocdn.taobao.com
-DOMAIN-SUFFIX,tbm-auth.alicdn.com
 
 #Others
 DOMAIN-SUFFIX,umengcloud.com
