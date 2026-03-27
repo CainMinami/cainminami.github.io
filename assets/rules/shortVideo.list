@@ -27,6 +27,16 @@ DOMAIN-SUFFIX,sns-video-hw.xhscdn.com
 DOMAIN-SUFFIX,sns-video-bd.xhscdn.com
 DOMAIN-KEYWORD,spider-tracker.xiaohongshu.com
 DOMAIN-SUFFIX,sns-video-exp1-qn.xhscdn.com
+IP-CIDR,111.13.143.229/32
+IP-CIDR,39.136.88.113/32
+IP-CIDR,123.125.244.51/32
+IP-CIDR,47.103.207.148/32
+IP-CIDR,43.141.49.125/32
+IP-CIDR,43.141.49.108/32
+IP-CIDR,61.49.23.51/32
+IP-CIDR,220.194.122.208/32
+IP-CIDR,61.49.23.52/32
+
 
 # Taobao video&live
 DOMAIN-SUFFIX,video-sh.cloudvideocdn.taobao.com
